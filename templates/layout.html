@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html{
+            background-color: #edbb20;
+
+        }
+        body{
+            text-align: center;
+            font-family: "Baskerville Old Face";
+            color: cornflowerblue;
+            text-shadow: 1px 1px 1px mediumblue,
+                         2px 2px 1px skyblue;
+            font-size: 140px;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: capitalize;
+        }
+        input{
+            height: 50px;
+            width: 400px;
+        }
+        input[type=text] {
+            height: 60px;
+            width: 400px;
+            border-top: 5px solid cornflowerblue;
+            border-right: 5px solid cornflowerblue;
+            border-left: 5px solid lightskyblue;
+            border-bottom: 5px solid lightskyblue;
+            font-family: "Baskerville Old Face";
+            color: cornflowerblue;
+            background-color: lightskyblue;
+            font-size: 30px;
+
+            }
+        input[type=submit] {
+            height: 70px;
+            width: 200px;
+            border-top: 5px solid cornflowerblue;
+            border-right: 5px solid cornflowerblue;
+            border-left: 5px solid lightskyblue;
+            border-bottom: 5px solid lightskyblue;
+            font-family: "Baskerville Old Face";
+            color: cornflowerblue;
+            background-color: lightskyblue;
+            font-size: 35px;
+            }
+    </style>
+
+</head>
+<body class="body">
+    {% block body %}{% endblock %}
+</body>
+</html>
